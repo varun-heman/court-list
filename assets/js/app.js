@@ -485,22 +485,15 @@ function initializeMap(mapId, coordinates) {
 
 // Initialize full-screen map
 function initializeFullScreenMap() {
-    // If there's already a map, destroy it
-    if (fullScreenMap) {
-        fullScreenMap.remove();
-        fullScreenMap = null;
+    if (!fullScreenMap) {
+        fullScreenMap = L.map(fullMap).setView([20.5937, 78.9629], 5);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(fullScreenMap);
+        
+        // Update markers immediately
+        updateMapMarkers();
     }
-    
-    // Create a new map centered on India
-    fullScreenMap = L.map(fullMap).setView([20.5937, 78.9629], 5);
-    
-    // Add OpenStreetMap tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(fullScreenMap);
-    
-    // Add markers for all legal bodies
-    updateMapMarkers();
 }
 
 // Update map markers based on filtered bodies
@@ -514,36 +507,22 @@ function updateMapMarkers() {
     markers = [];
     
     // Add new markers for each filtered body
-    const markerPromises = filteredBodies.map(async (body) => {
+    filteredBodies.forEach(async (body) => {
         try {
             const coordinates = await getCoordinates(body.location, body.state);
             if (coordinates) {
                 const marker = L.marker([coordinates.lat, coordinates.lon]).addTo(fullScreenMap);
                 
-                // Create popup content
+                // Create simplified popup content without hover button
                 const popupContent = `
                     <div class="map-marker-popup">
                         <div class="map-marker-popup-title">${body.name}</div>
                         <div class="map-marker-popup-type">${body.type}</div>
                         <div class="map-marker-popup-location">${body.location}</div>
-                        <button class="map-marker-popup-button" data-body-name="${body.name}">View Details</button>
                     </div>
                 `;
                 
                 marker.bindPopup(popupContent);
-                
-                // Add click event to the "View Details" button in popup
-                marker.on('popupopen', () => {
-                    setTimeout(() => {
-                        const button = document.querySelector(`.map-marker-popup-button[data-body-name="${body.name}"]`);
-                        if (button) {
-                            button.addEventListener('click', (e) => {
-                                e.stopPropagation();
-                                showDetailFromMap(body.name);
-                            });
-                        }
-                    }, 100);
-                });
                 
                 // Store marker reference
                 markers.push({
@@ -554,144 +533,6 @@ function updateMapMarkers() {
             }
         } catch (error) {
             console.error(`Error creating marker for ${body.name}:`, error);
-        }
-    });
-    
-    // Wait for all markers to be added
-    Promise.all(markerPromises).then(() => {
-        console.log(`Added ${markers.length} markers to the map`);
-    }).catch(error => {
-        console.error('Error adding markers:', error);
-    });
-}
-
-// Show detail modal from map
-function showDetailFromMap(bodyName) {
-    const body = legalBodies.find(b => b.name === bodyName);
-    if (body) {
-        showDetailModal(body);
-    }
-}
-
-// Switch to list view tab
-function switchToListView() {
-    mapTab.classList.remove('active');
-    listTab.classList.add('active');
-    mapViewContainer.classList.remove('active');
-    listViewContainer.classList.add('active');
-}
-
-// Switch to map view tab
-function switchToMapView() {
-    listTab.classList.remove('active');
-    mapTab.classList.add('active');
-    listViewContainer.classList.remove('active');
-    mapViewContainer.classList.add('active');
-    
-    // Initialize map if it doesn't exist
-    if (!fullScreenMap) {
-        setTimeout(() => {
-            initializeFullScreenMap();
-            
-            // Add markers after a short delay to ensure map is fully loaded
-            setTimeout(() => {
-                updateMapMarkers();
-                renderMapResults();
-            }, 300);
-        }, 100);
-    } else {
-        // If map exists, just refresh it
-        fullScreenMap.invalidateSize();
-        
-        // Update markers if they're not already on the map
-        if (markers.length === 0 || markers.length !== filteredBodies.length) {
-            updateMapMarkers();
-        }
-        
-        renderMapResults();
-    }
-}
-
-// Add debounce function to prevent rapid firing of events
-function debounce(func, wait) {
-    let timeout;
-    return function(...args) {
-        const context = this;
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(context, args), wait);
-    };
-}
-
-// Set up event listeners
-function setupEventListeners() {
-    // Search input
-    searchInput.addEventListener('input', debounce(() => {
-        activeFilters.search = searchInput.value.trim().toLowerCase();
-        applyFilters();
-    }, 300));
-    
-    // Clear search
-    clearSearchBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        activeFilters.search = '';
-        applyFilters();
-    });
-    
-    // View options
-    gridViewBtn.addEventListener('click', () => {
-        resultsContainer.classList.remove('list-view');
-        resultsContainer.classList.add('grid-view');
-        listViewBtn.classList.remove('active');
-        gridViewBtn.classList.add('active');
-    });
-    
-    listViewBtn.addEventListener('click', () => {
-        resultsContainer.classList.remove('grid-view');
-        resultsContainer.classList.add('list-view');
-        gridViewBtn.classList.remove('active');
-        listViewBtn.classList.add('active');
-    });
-    
-    // Modal close
-    closeModalBtn.addEventListener('click', closeDetailModal);
-    closeModalButtonBtn.addEventListener('click', closeDetailModal);
-    detailModal.addEventListener('click', (e) => {
-        if (e.target === detailModal) {
-            closeDetailModal();
-        }
-    });
-    
-    // Tab switching
-    listTab.addEventListener('click', switchToListView);
-    mapTab.addEventListener('click', switchToMapView);
-    
-    // Map results list item click
-    mapResultsList.addEventListener('click', (e) => {
-        const card = e.target.closest('.map-card');
-        if (card) {
-            const bodyName = card.getAttribute('data-id');
-            
-            // Remove active class from all cards
-            document.querySelectorAll('.map-card').forEach(c => c.classList.remove('active'));
-            
-            // Add active class to clicked card
-            card.classList.add('active');
-            
-            // Find the marker for this body
-            const marker = markers.find(m => m.bodyName === bodyName);
-            
-            if (marker && marker.leafletMarker) {
-                // Center map on marker and open popup
-                fullScreenMap.setView([marker.coordinates.lat, marker.coordinates.lon], 15);
-                marker.leafletMarker.openPopup();
-            }
-        }
-    });
-    
-    // Add keyboard support for modal
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && detailModal.classList.contains('open')) {
-            closeDetailModal();
         }
     });
 }
@@ -749,11 +590,6 @@ function showDetailModal(body) {
             <p>${body.location}</p>
             <div class="map-wrapper" data-body-name="${body.name}">
                 <div id="${mapId}" class="detail-map"></div>
-                <div class="map-overlay">
-                    <span class="map-view-button">
-                        <i class="fas fa-expand"></i> View in Map
-                    </span>
-                </div>
             </div>
         </div>
     `;
@@ -923,6 +759,92 @@ function clearAllFilters() {
     
     // Apply filters
     applyFilters();
+}
+
+// Switch to list view tab
+function switchToListView() {
+    mapTab.classList.remove('active');
+    listTab.classList.add('active');
+    mapViewContainer.classList.remove('active');
+    listViewContainer.classList.add('active');
+}
+
+// Switch to map view tab
+function switchToMapView() {
+    listTab.classList.remove('active');
+    mapTab.classList.add('active');
+    listViewContainer.classList.remove('active');
+    mapViewContainer.classList.add('active');
+    
+    // Initialize map if it doesn't exist
+    if (!fullScreenMap) {
+        initializeFullScreenMap();
+    } else {
+        // If map exists, just refresh it
+        fullScreenMap.invalidateSize();
+        updateMapMarkers();
+    }
+}
+
+// Add debounce function to prevent rapid firing of events
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+}
+
+// Set up event listeners
+function setupEventListeners() {
+    // Search input with shorter debounce
+    searchInput.addEventListener('input', debounce(() => {
+        activeFilters.search = searchInput.value.trim().toLowerCase();
+        applyFilters();
+    }, 100));
+    
+    // Clear search
+    clearSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        activeFilters.search = '';
+        applyFilters();
+    });
+    
+    // View options
+    gridViewBtn.addEventListener('click', () => {
+        resultsContainer.classList.remove('list-view');
+        resultsContainer.classList.add('grid-view');
+        listViewBtn.classList.remove('active');
+        gridViewBtn.classList.add('active');
+    });
+    
+    listViewBtn.addEventListener('click', () => {
+        resultsContainer.classList.remove('grid-view');
+        resultsContainer.classList.add('list-view');
+        gridViewBtn.classList.remove('active');
+        listViewBtn.classList.add('active');
+    });
+    
+    // Modal close
+    closeModalBtn.addEventListener('click', closeDetailModal);
+    closeModalButtonBtn.addEventListener('click', closeDetailModal);
+    detailModal.addEventListener('click', (e) => {
+        if (e.target === detailModal) {
+            closeDetailModal();
+        }
+    });
+    
+    // Tab switching
+    listTab.addEventListener('click', switchToListView);
+    mapTab.addEventListener('click', switchToMapView);
+    
+    // Keyboard support for modal
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && detailModal.classList.contains('open')) {
+            closeDetailModal();
+        }
+    });
 }
 
 // Load data when the page loads
