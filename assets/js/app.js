@@ -40,7 +40,7 @@ let markers = []; // To track map markers
 async function loadLegalBodies() {
     try {
         console.log('Attempting to fetch legal bodies data...');
-        const response = await fetch('/data/comprehensive-legal-bodies-updated.json');
+        const response = await fetch('/assets/data/courts-data.json');
         
         if (!response.ok) {
             const errorText = await response.text();

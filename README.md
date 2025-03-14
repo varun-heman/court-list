@@ -37,9 +37,24 @@ python -m http.server 3000
 
 Then open `http://localhost:3000` in your browser.
 
+## Project Structure
+
+```
+static-site/
+├── assets/
+│   ├── css/         # Stylesheets
+│   ├── data/        # JSON data files
+│   ├── img/         # Images and icons
+│   └── js/          # JavaScript files
+├── index.html       # Main HTML file
+├── _redirects       # Netlify redirects configuration
+├── netlify.toml     # Netlify configuration
+└── README.md        # This file
+```
+
 ## Data Structure
 
-The application uses a JSON file (`comprehensive-legal-bodies.json`) containing information about various legal bodies in India, including:
+The application uses a JSON file (`courts-data.json`) containing information about various legal bodies in India, including:
 
 - Name
 - Type

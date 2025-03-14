@@ -27,3 +27,10 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Exclude parent directory JSON files
+../comprehensive-legal-bodies-backup.json
+../comprehensive-legal-bodies-updated.json
+../comprehensive-legal-bodies.json
+../legal-bodies.json
+../updated-legal-bodies.json
