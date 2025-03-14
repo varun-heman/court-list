@@ -504,23 +504,20 @@ function initializeFullScreenMap() {
 }
 
 // Update map markers based on filtered bodies
-async function updateMapMarkers() {
+function updateMapMarkers() {
     // Clear existing markers
-    if (markers.length > 0) {
-        markers.forEach(marker => {
-            if (marker.leafletMarker) {
-                fullScreenMap.removeLayer(marker.leafletMarker);
-            }
-        });
-        markers = [];
-    }
+    markers.forEach(marker => {
+        if (marker.leafletMarker) {
+            marker.leafletMarker.remove();
+        }
+    });
+    markers = [];
     
-    // Add markers for filtered bodies
-    for (const body of filteredBodies) {
+    // Add new markers for each filtered body
+    const markerPromises = filteredBodies.map(async (body) => {
         try {
             const coordinates = await getCoordinates(body.location, body.state);
             if (coordinates) {
-                // Create marker
                 const marker = L.marker([coordinates.lat, coordinates.lon]).addTo(fullScreenMap);
                 
                 // Create popup content
@@ -528,12 +525,25 @@ async function updateMapMarkers() {
                     <div class="map-marker-popup">
                         <div class="map-marker-popup-title">${body.name}</div>
                         <div class="map-marker-popup-type">${body.type}</div>
-                        <button class="map-marker-popup-button" onclick="window.showDetailFromMap('${body.name}')">View Details</button>
+                        <div class="map-marker-popup-location">${body.location}</div>
+                        <button class="map-marker-popup-button" data-body-name="${body.name}">View Details</button>
                     </div>
                 `;
                 
-                // Bind popup to marker
                 marker.bindPopup(popupContent);
+                
+                // Add click event to the "View Details" button in popup
+                marker.on('popupopen', () => {
+                    setTimeout(() => {
+                        const button = document.querySelector(`.map-marker-popup-button[data-body-name="${body.name}"]`);
+                        if (button) {
+                            button.addEventListener('click', (e) => {
+                                e.stopPropagation();
+                                showDetailFromMap(body.name);
+                            });
+                        }
+                    }, 100);
+                });
                 
                 // Store marker reference
                 markers.push({
@@ -543,24 +553,148 @@ async function updateMapMarkers() {
                 });
             }
         } catch (error) {
-            console.error(`Error adding marker for ${body.name}:`, error);
+            console.error(`Error creating marker for ${body.name}:`, error);
         }
-    }
+    });
     
-    // If there are markers, fit the map to show all markers
-    if (markers.length > 0) {
-        const markerGroup = L.featureGroup(markers.map(m => m.leafletMarker));
-        fullScreenMap.fitBounds(markerGroup.getBounds(), { padding: [50, 50] });
-    }
+    // Wait for all markers to be added
+    Promise.all(markerPromises).then(() => {
+        console.log(`Added ${markers.length} markers to the map`);
+    }).catch(error => {
+        console.error('Error adding markers:', error);
+    });
 }
 
 // Show detail modal from map
-window.showDetailFromMap = function(bodyName) {
-    const body = filteredBodies.find(b => b.name === bodyName);
+function showDetailFromMap(bodyName) {
+    const body = legalBodies.find(b => b.name === bodyName);
     if (body) {
         showDetailModal(body);
     }
-};
+}
+
+// Switch to list view tab
+function switchToListView() {
+    mapTab.classList.remove('active');
+    listTab.classList.add('active');
+    mapViewContainer.classList.remove('active');
+    listViewContainer.classList.add('active');
+}
+
+// Switch to map view tab
+function switchToMapView() {
+    listTab.classList.remove('active');
+    mapTab.classList.add('active');
+    listViewContainer.classList.remove('active');
+    mapViewContainer.classList.add('active');
+    
+    // Initialize map if it doesn't exist
+    if (!fullScreenMap) {
+        setTimeout(() => {
+            initializeFullScreenMap();
+            
+            // Add markers after a short delay to ensure map is fully loaded
+            setTimeout(() => {
+                updateMapMarkers();
+                renderMapResults();
+            }, 300);
+        }, 100);
+    } else {
+        // If map exists, just refresh it
+        fullScreenMap.invalidateSize();
+        
+        // Update markers if they're not already on the map
+        if (markers.length === 0 || markers.length !== filteredBodies.length) {
+            updateMapMarkers();
+        }
+        
+        renderMapResults();
+    }
+}
+
+// Add debounce function to prevent rapid firing of events
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+}
+
+// Set up event listeners
+function setupEventListeners() {
+    // Search input
+    searchInput.addEventListener('input', debounce(() => {
+        activeFilters.search = searchInput.value.trim().toLowerCase();
+        applyFilters();
+    }, 300));
+    
+    // Clear search
+    clearSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        activeFilters.search = '';
+        applyFilters();
+    });
+    
+    // View options
+    gridViewBtn.addEventListener('click', () => {
+        resultsContainer.classList.remove('list-view');
+        resultsContainer.classList.add('grid-view');
+        listViewBtn.classList.remove('active');
+        gridViewBtn.classList.add('active');
+    });
+    
+    listViewBtn.addEventListener('click', () => {
+        resultsContainer.classList.remove('grid-view');
+        resultsContainer.classList.add('list-view');
+        gridViewBtn.classList.remove('active');
+        listViewBtn.classList.add('active');
+    });
+    
+    // Modal close
+    closeModalBtn.addEventListener('click', closeDetailModal);
+    closeModalButtonBtn.addEventListener('click', closeDetailModal);
+    detailModal.addEventListener('click', (e) => {
+        if (e.target === detailModal) {
+            closeDetailModal();
+        }
+    });
+    
+    // Tab switching
+    listTab.addEventListener('click', switchToListView);
+    mapTab.addEventListener('click', switchToMapView);
+    
+    // Map results list item click
+    mapResultsList.addEventListener('click', (e) => {
+        const card = e.target.closest('.map-card');
+        if (card) {
+            const bodyName = card.getAttribute('data-id');
+            
+            // Remove active class from all cards
+            document.querySelectorAll('.map-card').forEach(c => c.classList.remove('active'));
+            
+            // Add active class to clicked card
+            card.classList.add('active');
+            
+            // Find the marker for this body
+            const marker = markers.find(m => m.bodyName === bodyName);
+            
+            if (marker && marker.leafletMarker) {
+                // Center map on marker and open popup
+                fullScreenMap.setView([marker.coordinates.lat, marker.coordinates.lon], 15);
+                marker.leafletMarker.openPopup();
+            }
+        }
+    });
+    
+    // Add keyboard support for modal
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && detailModal.classList.contains('open')) {
+            closeDetailModal();
+        }
+    });
+}
 
 // Show detail modal
 function showDetailModal(body) {
@@ -789,123 +923,6 @@ function clearAllFilters() {
     
     // Apply filters
     applyFilters();
-}
-
-// Switch to list view tab
-function switchToListView() {
-    listTab.classList.add('active');
-    mapTab.classList.remove('active');
-    listViewContainer.style.display = 'flex';
-    mapViewContainer.style.display = 'none';
-}
-
-// Switch to map view tab
-function switchToMapView() {
-    mapTab.classList.add('active');
-    listTab.classList.remove('active');
-    mapViewContainer.style.display = 'flex';
-    listViewContainer.style.display = 'none';
-    
-    // Refresh the map to ensure it renders correctly
-    setTimeout(() => {
-        if (fullScreenMap) {
-            fullScreenMap.invalidateSize();
-            
-            // If there are markers, fit the map to show all markers
-            if (markers.length > 0) {
-                const markerGroup = L.featureGroup(markers.map(m => m.leafletMarker));
-                fullScreenMap.fitBounds(markerGroup.getBounds(), { padding: [50, 50] });
-            }
-        } else {
-            // If map doesn't exist, initialize it
-            initializeFullScreenMap();
-        }
-    }, 300);
-}
-
-// Set up event listeners
-function setupEventListeners() {
-    // Search input
-    searchInput.addEventListener('input', () => {
-        activeFilters.search = searchInput.value;
-        applyFilters();
-    });
-    
-    // Clear search
-    clearSearchBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        activeFilters.search = '';
-        applyFilters();
-    });
-    
-    // Type filters
-    typeFilters.addEventListener('change', (event) => {
-        if (event.target.matches('input[type="checkbox"]')) {
-            const value = event.target.value;
-            const isChecked = event.target.checked;
-            
-            if (isChecked) {
-                activeFilters.types.push(value);
-            } else {
-                activeFilters.types = activeFilters.types.filter(type => type !== value);
-            }
-            
-            applyFilters();
-        }
-    });
-    
-    // State filters
-    jurisdictionFilters.addEventListener('change', (event) => {
-        if (event.target.matches('input[type="checkbox"]')) {
-            const value = event.target.value;
-            const isChecked = event.target.checked;
-            
-            if (isChecked) {
-                activeFilters.states.push(value);
-            } else {
-                activeFilters.states = activeFilters.states.filter(state => state !== value);
-            }
-            
-            applyFilters();
-        }
-    });
-    
-    // View options
-    gridViewBtn.addEventListener('click', () => {
-        resultsContainer.classList.add('grid-view');
-        resultsContainer.classList.remove('list-view');
-        gridViewBtn.classList.add('active');
-        listViewBtn.classList.remove('active');
-    });
-    
-    listViewBtn.addEventListener('click', () => {
-        resultsContainer.classList.add('list-view');
-        resultsContainer.classList.remove('grid-view');
-        listViewBtn.classList.add('active');
-        gridViewBtn.classList.remove('active');
-    });
-    
-    // Tab switching
-    listTab.addEventListener('click', switchToListView);
-    mapTab.addEventListener('click', switchToMapView);
-    
-    // Modal close buttons
-    closeModalBtn.addEventListener('click', closeDetailModal);
-    closeModalButtonBtn.addEventListener('click', closeDetailModal);
-    
-    // Close modal when clicking outside
-    detailModal.addEventListener('click', (event) => {
-        if (event.target === detailModal) {
-            closeDetailModal();
-        }
-    });
-    
-    // Close modal with escape key
-    document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape' && detailModal.classList.contains('open')) {
-            closeDetailModal();
-        }
-    });
 }
 
 // Load data when the page loads
