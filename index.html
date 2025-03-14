@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Legal Bodies Navigator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.svg" alt="Court Navigator Logo">
+            <span class="logo-text">India Legal Bodies Navigator</span>
+        </div>
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" class="search-input" placeholder="Search legal bodies..." autocomplete="off">
+            <button id="clear-search" class="clear-search"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="tabs-container">
+            <button id="list-tab" class="tab active"><i class="fas fa-list"></i>List View</button>
+            <button id="map-tab" class="tab"><i class="fas fa-map-marker-alt"></i>Map View</button>
+        </div>
+    </header>
+
+    <div id="list-view-container" class="container">
+        <aside class="sidebar">
+            <div class="filter-section">
+                <h2>Filter by Type</h2>
+                <ul id="type-filters" class="filter-list">
+                    <!-- Types will be dynamically added here -->
+                </ul>
+            </div>
+            
+            <div class="filter-section">
+                <h2>Filter by State</h2>
+                <ul id="jurisdiction-filters" class="filter-list">
+                    <!-- Jurisdictions will be dynamically added here -->
+                </ul>
+            </div>
+        </aside>
+        
+        <main class="content">
+            <div class="results-header">
+                <h2 id="results-count">All Legal Bodies</h2>
+                <div class="view-options">
+                    <button id="grid-view" class="view-button active"><i class="fas fa-th-large"></i></button>
+                    <button id="list-view" class="view-button"><i class="fas fa-list"></i></button>
+                </div>
+            </div>
+            
+            <div id="results-container" class="results-container grid-view">
+                <!-- Results will be dynamically added here -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading legal bodies...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="map-view-container" class="map-view-container" style="display: none;">
+        <div id="full-map" class="full-map"></div>
+        <div class="map-sidebar">
+            <div id="map-results-count" class="map-results-count">All Legal Bodies</div>
+            <div id="map-results-list" class="map-results-list">
+                <!-- Map results will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Legal Body Details</h2>
+                <button id="close-modal" class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div id="modal-body" class="modal-body">
+                <!-- Details will be dynamically added here -->
+            </div>
+            <div class="modal-footer">
+                <a id="visit-website" href="#" target="_blank" class="button primary">Visit Website</a>
+                <button id="close-modal-button" class="button secondary">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 India Legal Bodies Navigator. All rights reserved.</p>
+    </footer>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

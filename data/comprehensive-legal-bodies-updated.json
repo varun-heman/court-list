@@ -1,0 +1,2642 @@
+[
+  {
+    "name": "Supreme Court of India",
+    "type": "Supreme Court",
+    "description": "The highest judicial forum and final court of appeal under the Constitution of India. It has extensive original, appellate and advisory jurisdictions.",
+    "location": "Tilak Marg, New Delhi, Delhi 110001",
+    "website": "https://main.sci.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Notifications",
+      "Cause Lists",
+      "Court Rules",
+      "Case Status",
+      "Constitution Benches"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Constitutional matters",
+      "Civil appeals",
+      "Criminal appeals",
+      "Public Interest Litigation",
+      "Special Leave Petitions"
+    ],
+    "geographicalJurisdiction": "All India"
+  },
+  {
+    "name": "Allahabad High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Uttar Pradesh. It's one of the oldest high courts in India.",
+    "location": "High Court Allahabad, Uttar Pradesh 211001",
+    "website": "https://www.allahabadhighcourt.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Uttar Pradesh"
+  },
+  {
+    "name": "Allahabad High Court - Lucknow Bench",
+    "type": "High Court",
+    "description": "Lucknow Bench of the Allahabad High Court serving parts of Uttar Pradesh.",
+    "location": "High Court, Lucknow, Uttar Pradesh 226001",
+    "website": "https://www.allahabadhighcourt.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Lucknow Division of Uttar Pradesh"
+  },
+  {
+    "name": "Bombay High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the states of Maharashtra and Goa, and the Union Territories of Dadra and Nagar Haveli and Daman and Diu.",
+    "location": "High Court, Fort, Mumbai, Maharashtra 400032",
+    "website": "https://bombayhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Maharashtra, Goa, Dadra and Nagar Haveli, Daman and Diu"
+  },
+  {
+    "name": "Bombay High Court - Nagpur Bench",
+    "type": "High Court",
+    "description": "Nagpur Bench of the Bombay High Court serving Vidarbha region of Maharashtra.",
+    "location": "High Court, Civil Lines, Nagpur, Maharashtra 440001",
+    "website": "https://bombayhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Vidarbha region of Maharashtra"
+  },
+  {
+    "name": "Bombay High Court - Aurangabad Bench",
+    "type": "High Court",
+    "description": "Aurangabad Bench of the Bombay High Court serving Marathwada region of Maharashtra.",
+    "location": "High Court, Aurangabad, Maharashtra 431001",
+    "website": "https://bombayhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Marathwada region of Maharashtra"
+  },
+  {
+    "name": "Bombay High Court - Goa Bench at Panaji",
+    "type": "High Court",
+    "description": "Panaji Bench of the Bombay High Court serving the state of Goa.",
+    "location": "High Court, Panaji, Goa 403001",
+    "website": "https://bombayhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Goa",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Goa"
+  },
+  {
+    "name": "Calcutta High Court",
+    "type": "High Court",
+    "description": "Oldest High Court in India, serves as the highest court of appeal in the state of West Bengal and the Union Territory of Andaman and Nicobar Islands.",
+    "location": "High Court, Kolkata, West Bengal 700001",
+    "website": "https://www.calcuttahighcourt.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "West Bengal, Andaman and Nicobar Islands"
+  },
+  {
+    "name": "Calcutta High Court - Andaman and Nicobar Circuit Bench",
+    "type": "High Court",
+    "description": "Circuit Bench of the Calcutta High Court serving the Union Territory of Andaman and Nicobar Islands.",
+    "location": "Circuit Bench, Port Blair, Andaman and Nicobar Islands 744101",
+    "website": "https://www.calcuttahighcourt.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Port Blair",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Andaman and Nicobar Islands"
+  },
+  {
+    "name": "Calcutta High Court - Jalpaiguri Circuit Bench",
+    "type": "High Court",
+    "description": "Circuit Bench of the Calcutta High Court serving North Bengal region.",
+    "location": "Circuit Bench, Jalpaiguri, West Bengal 735101",
+    "website": "https://www.calcuttahighcourt.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "North Bengal districts"
+  },
+  {
+    "name": "Delhi High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the National Capital Territory of Delhi.",
+    "location": "Sher Shah Road, New Delhi, Delhi 110003",
+    "website": "https://delhihighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Delhi"
+  },
+  {
+    "name": "Gauhati High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the states of Assam, Nagaland, Mizoram and Arunachal Pradesh.",
+    "location": "High Court, Guwahati, Assam 781001",
+    "website": "https://ghconline.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Assam",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Assam, Nagaland, Mizoram, Arunachal Pradesh"
+  },
+  {
+    "name": "Gauhati High Court - Kohima Bench",
+    "type": "High Court",
+    "description": "Kohima Bench of the Gauhati High Court serving the state of Nagaland.",
+    "location": "High Court Bench, Kohima, Nagaland 797001",
+    "website": "https://kohimahighcourt.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Nagaland",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Nagaland"
+  },
+  {
+    "name": "Gauhati High Court - Aizawl Bench",
+    "type": "High Court",
+    "description": "Aizawl Bench of the Gauhati High Court serving the state of Mizoram.",
+    "location": "High Court Bench, Aizawl, Mizoram 796001",
+    "website": "https://ghconline.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Mizoram",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Mizoram"
+  },
+  {
+    "name": "Gauhati High Court - Itanagar Permanent Bench",
+    "type": "High Court",
+    "description": "Itanagar Permanent Bench of the Gauhati High Court serving the state of Arunachal Pradesh.",
+    "location": "High Court Bench, Itanagar, Arunachal Pradesh 791111",
+    "website": "https://ghconline.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Arunachal Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Arunachal Pradesh"
+  },
+  {
+    "name": "Gujarat High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Gujarat.",
+    "location": "High Court, Sola, Ahmedabad, Gujarat 380060",
+    "website": "https://gujarathighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Gujarat",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Gujarat"
+  },
+  {
+    "name": "Himachal Pradesh High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Himachal Pradesh.",
+    "location": "High Court, Shimla, Himachal Pradesh 171001",
+    "website": "https://hphighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Himachal Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Himachal Pradesh"
+  },
+  {
+    "name": "Jammu and Kashmir and Ladakh High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the Union Territories of Jammu and Kashmir and Ladakh.",
+    "location": "High Court, Jammu, Jammu and Kashmir 180001",
+    "website": "https://jkhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Jammu and Kashmir",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Jammu and Kashmir, Ladakh"
+  },
+  {
+    "name": "Jammu and Kashmir and Ladakh High Court - Srinagar Wing",
+    "type": "High Court",
+    "description": "Srinagar Wing of the Jammu and Kashmir and Ladakh High Court.",
+    "location": "High Court, Srinagar, Jammu and Kashmir 190001",
+    "website": "https://jkhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Jammu and Kashmir",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Kashmir Valley"
+  },
+  {
+    "name": "Jharkhand High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Jharkhand.",
+    "location": "High Court, Ranchi, Jharkhand 834001",
+    "website": "https://jharkhandhighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Jharkhand",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Jharkhand"
+  },
+  {
+    "name": "Karnataka High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Karnataka.",
+    "location": "High Court, Bengaluru, Karnataka 560001",
+    "website": "https://karnatakajudiciary.kar.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Karnataka"
+  },
+  {
+    "name": "Karnataka High Court - Dharwad Bench",
+    "type": "High Court",
+    "description": "Dharwad Bench of the Karnataka High Court serving North Karnataka region.",
+    "location": "High Court Bench, Dharwad, Karnataka 580001",
+    "website": "https://karnatakajudiciary.kar.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "North Karnataka districts"
+  },
+  {
+    "name": "Karnataka High Court - Kalaburagi Bench",
+    "type": "High Court",
+    "description": "Kalaburagi Bench of the Karnataka High Court serving Kalyana-Karnataka region.",
+    "location": "High Court Bench, Kalaburagi, Karnataka 585101",
+    "website": "https://karnatakajudiciary.kar.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Kalyana-Karnataka districts"
+  },
+  {
+    "name": "Kerala High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Kerala and the Union Territory of Lakshadweep.",
+    "location": "High Court, Ernakulam, Kerala 682031",
+    "website": "https://highcourtofkerala.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Kerala",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Kerala, Lakshadweep"
+  },
+  {
+    "name": "Madhya Pradesh High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Madhya Pradesh.",
+    "location": "High Court, Jabalpur, Madhya Pradesh 482001",
+    "website": "https://mphc.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Madhya Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Madhya Pradesh"
+  },
+  {
+    "name": "Madhya Pradesh High Court - Indore Bench",
+    "type": "High Court",
+    "description": "Indore Bench of the Madhya Pradesh High Court.",
+    "location": "High Court Bench, Indore, Madhya Pradesh 452001",
+    "website": "https://mphc.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Madhya Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Indore Division"
+  },
+  {
+    "name": "Madhya Pradesh High Court - Gwalior Bench",
+    "type": "High Court",
+    "description": "Gwalior Bench of the Madhya Pradesh High Court.",
+    "location": "High Court Bench, Gwalior, Madhya Pradesh 474001",
+    "website": "https://mphc.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Madhya Pradesh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Gwalior Division"
+  },
+  {
+    "name": "Madras High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Tamil Nadu and the Union Territory of Puducherry.",
+    "location": "High Court, Chennai, Tamil Nadu 600104",
+    "website": "https://www.hcmadras.tn.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Tamil Nadu",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Tamil Nadu, Puducherry"
+  },
+  {
+    "name": "Madras High Court - Madurai Bench",
+    "type": "High Court",
+    "description": "Madurai Bench of the Madras High Court serving southern districts of Tamil Nadu.",
+    "location": "High Court Bench, Madurai, Tamil Nadu 625023",
+    "website": "https://www.hcmadras.tn.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Tamil Nadu",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Southern districts of Tamil Nadu"
+  },
+  {
+    "name": "Manipur High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Manipur.",
+    "location": "High Court, Imphal, Manipur 795001",
+    "website": "https://hcmimphal.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Manipur",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Manipur"
+  },
+  {
+    "name": "Meghalaya High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Meghalaya.",
+    "location": "High Court, Shillong, Meghalaya 793001",
+    "website": "https://meghalayahighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Meghalaya",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Meghalaya"
+  },
+  {
+    "name": "Orissa High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Odisha.",
+    "location": "High Court, Cuttack, Odisha 753002",
+    "website": "https://orissahighcourt.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Odisha",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Odisha"
+  },
+  {
+    "name": "Patna High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Bihar.",
+    "location": "High Court, Patna, Bihar 800001",
+    "website": "https://patnahighcourt.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Bihar",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Bihar"
+  },
+  {
+    "name": "Punjab and Haryana High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the states of Punjab and Haryana, and the Union Territory of Chandigarh.",
+    "location": "High Court, Chandigarh 160001",
+    "website": "https://highcourtchd.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Chandigarh",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Punjab, Haryana, Chandigarh"
+  },
+  {
+    "name": "Rajasthan High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Rajasthan.",
+    "location": "High Court, Jodhpur, Rajasthan 342001",
+    "website": "https://hcraj.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Rajasthan",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Rajasthan"
+  },
+  {
+    "name": "Rajasthan High Court - Jaipur Bench",
+    "type": "High Court",
+    "description": "Jaipur Bench of the Rajasthan High Court.",
+    "location": "High Court Bench, Jaipur, Rajasthan 302005",
+    "website": "https://hcraj.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Rajasthan",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Eastern Rajasthan districts"
+  },
+  {
+    "name": "Sikkim High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Sikkim.",
+    "location": "High Court, Gangtok, Sikkim 737101",
+    "website": "https://highcourtofsikkim.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Sikkim",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Sikkim"
+  },
+  {
+    "name": "Telangana High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Telangana.",
+    "location": "High Court, Hyderabad, Telangana 500001",
+    "website": "https://tshc.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Telangana",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Telangana"
+  },
+  {
+    "name": "Tripura High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Tripura.",
+    "location": "High Court, Agartala, Tripura 799001",
+    "website": "https://thc.nic.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Tripura",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Tripura"
+  },
+  {
+    "name": "Uttarakhand High Court",
+    "type": "High Court",
+    "description": "Serves as the highest court of appeal in the state of Uttarakhand.",
+    "location": "High Court, Nainital, Uttarakhand 263001",
+    "website": "https://highcourtofuttarakhand.gov.in/",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status",
+      "Rules"
+    ],
+    "state": "Uttarakhand",
+    "caseTypes": [
+      "Civil appeals",
+      "Criminal appeals",
+      "Writ petitions",
+      "Original suits",
+      "Testamentary matters"
+    ],
+    "geographicalJurisdiction": "Uttarakhand"
+  },
+  {
+    "name": "District and Sessions Court, South Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in South Delhi district.",
+    "location": "Saket Court Complex, New Delhi, Delhi 110017",
+    "website": "https://districts.ecourts.gov.in/south-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "South Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, North Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in North Delhi district.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/north-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "North Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, East Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in East Delhi district.",
+    "location": "Karkardooma Courts, Delhi 110032",
+    "website": "https://districts.ecourts.gov.in/east-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "East Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, West Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in West Delhi district.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/west-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "West Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, New Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in New Delhi district.",
+    "location": "Patiala House Courts, New Delhi 110001",
+    "website": "https://districts.ecourts.gov.in/new-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "New Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, North East Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in North East Delhi district.",
+    "location": "Karkardooma Courts, Delhi 110032",
+    "website": "https://districts.ecourts.gov.in/north-east-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "North East Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, North West Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in North West Delhi district.",
+    "location": "Rohini Courts, Delhi 110085",
+    "website": "https://districts.ecourts.gov.in/north-west-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "North West Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, South East Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in South East Delhi district.",
+    "location": "Saket Court Complex, New Delhi, Delhi 110017",
+    "website": "https://districts.ecourts.gov.in/south-east-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "South East Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, South West Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in South West Delhi district.",
+    "location": "Dwarka Courts, Delhi 110075",
+    "website": "https://districts.ecourts.gov.in/south-west-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "South West Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, Shahdara",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Shahdara district.",
+    "location": "Karkardooma Courts, Delhi 110032",
+    "website": "https://districts.ecourts.gov.in/shahdara",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Shahdara district"
+  },
+  {
+    "name": "District and Sessions Court, Central Delhi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Central Delhi district.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/central-delhi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Central Delhi district"
+  },
+  {
+    "name": "District and Sessions Court, Mumbai City",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Mumbai City district.",
+    "location": "Fort, Mumbai, Maharashtra 400001",
+    "website": "https://districts.ecourts.gov.in/mumbai-city",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Mumbai City district"
+  },
+  {
+    "name": "District and Sessions Court, Mumbai Suburban",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Mumbai Suburban district.",
+    "location": "Dindoshi, Mumbai, Maharashtra 400097",
+    "website": "https://districts.ecourts.gov.in/mumbai-suburban",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Mumbai Suburban district"
+  },
+  {
+    "name": "District and Sessions Court, Thane",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Thane district.",
+    "location": "Court Naka, Thane, Maharashtra 400601",
+    "website": "https://districts.ecourts.gov.in/thane",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Thane district"
+  },
+  {
+    "name": "District and Sessions Court, Pune",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Pune district.",
+    "location": "Shivajinagar, Pune, Maharashtra 411005",
+    "website": "https://districts.ecourts.gov.in/pune",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Pune district"
+  },
+  {
+    "name": "District and Sessions Court, Nagpur",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Nagpur district.",
+    "location": "Civil Lines, Nagpur, Maharashtra 440001",
+    "website": "https://districts.ecourts.gov.in/nagpur",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Nagpur district"
+  },
+  {
+    "name": "District and Sessions Court, Aurangabad",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Aurangabad district.",
+    "location": "Aurangabad, Maharashtra 431001",
+    "website": "https://districts.ecourts.gov.in/aurangabad",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Aurangabad district"
+  },
+  {
+    "name": "District and Sessions Court, Kolkata",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Kolkata district.",
+    "location": "Bankshall Street, Kolkata, West Bengal 700001",
+    "website": "https://districts.ecourts.gov.in/kolkata",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Kolkata district"
+  },
+  {
+    "name": "District and Sessions Court, North 24 Parganas",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in North 24 Parganas district.",
+    "location": "Barasat, West Bengal 700124",
+    "website": "https://districts.ecourts.gov.in/north-24-parganas",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "North 24 Parganas district"
+  },
+  {
+    "name": "District and Sessions Court, South 24 Parganas",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in South 24 Parganas district.",
+    "location": "Alipore, Kolkata, West Bengal 700027",
+    "website": "https://districts.ecourts.gov.in/south-24-parganas",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "South 24 Parganas district"
+  },
+  {
+    "name": "District and Sessions Court, Howrah",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Howrah district.",
+    "location": "Howrah, West Bengal 711101",
+    "website": "https://districts.ecourts.gov.in/howrah",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Howrah district"
+  },
+  {
+    "name": "District and Sessions Court, Chennai",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Chennai district.",
+    "location": "George Town, Chennai, Tamil Nadu 600001",
+    "website": "https://districts.ecourts.gov.in/chennai",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Tamil Nadu",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Chennai district"
+  },
+  {
+    "name": "District and Sessions Court, Coimbatore",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Coimbatore district.",
+    "location": "Race Course, Coimbatore, Tamil Nadu 641018",
+    "website": "https://districts.ecourts.gov.in/coimbatore",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Tamil Nadu",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Coimbatore district"
+  },
+  {
+    "name": "District and Sessions Court, Madurai",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Madurai district.",
+    "location": "Madurai, Tamil Nadu 625020",
+    "website": "https://districts.ecourts.gov.in/madurai",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Tamil Nadu",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Madurai district"
+  },
+  {
+    "name": "District and Sessions Court, Bengaluru Urban",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Bengaluru Urban district.",
+    "location": "City Civil Court, Bengaluru, Karnataka 560001",
+    "website": "https://districts.ecourts.gov.in/bengaluru-urban",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Bengaluru Urban district"
+  },
+  {
+    "name": "District and Sessions Court, Bengaluru Rural",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Bengaluru Rural district.",
+    "location": "Bengaluru, Karnataka 560001",
+    "website": "https://districts.ecourts.gov.in/bengaluru-rural",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Bengaluru Rural district"
+  },
+  {
+    "name": "District and Sessions Court, Mysuru",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Mysuru district.",
+    "location": "Mysuru, Karnataka 570001",
+    "website": "https://districts.ecourts.gov.in/mysuru",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Mysuru district"
+  },
+  {
+    "name": "District and Sessions Court, Hyderabad",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Hyderabad district.",
+    "location": "City Civil Court, Hyderabad, Telangana 500001",
+    "website": "https://districts.ecourts.gov.in/hyderabad",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Telangana",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Hyderabad district"
+  },
+  {
+    "name": "District and Sessions Court, Ranga Reddy",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Ranga Reddy district.",
+    "location": "L.B. Nagar, Hyderabad, Telangana 500074",
+    "website": "https://districts.ecourts.gov.in/ranga-reddy",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Telangana",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Ranga Reddy district"
+  },
+  {
+    "name": "District and Sessions Court, Ahmedabad",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Ahmedabad district.",
+    "location": "Bhadra, Ahmedabad, Gujarat 380001",
+    "website": "https://districts.ecourts.gov.in/ahmedabad",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Gujarat",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Ahmedabad district"
+  },
+  {
+    "name": "District and Sessions Court, Surat",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Surat district.",
+    "location": "Athwalines, Surat, Gujarat 395001",
+    "website": "https://districts.ecourts.gov.in/surat",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Gujarat",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Surat district"
+  },
+  {
+    "name": "District and Sessions Court, Vadodara",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Vadodara district.",
+    "location": "Nyay Mandir, Vadodara, Gujarat 390001",
+    "website": "https://districts.ecourts.gov.in/vadodara",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Gujarat",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Vadodara district"
+  },
+  {
+    "name": "District and Sessions Court, Lucknow",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Lucknow district.",
+    "location": "Qaiserbagh, Lucknow, Uttar Pradesh 226001",
+    "website": "https://districts.ecourts.gov.in/lucknow",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Lucknow district"
+  },
+  {
+    "name": "District and Sessions Court, Kanpur",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Kanpur district.",
+    "location": "Kanpur, Uttar Pradesh 208001",
+    "website": "https://districts.ecourts.gov.in/kanpur-nagar",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Kanpur district"
+  },
+  {
+    "name": "District and Sessions Court, Varanasi",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Varanasi district.",
+    "location": "Varanasi, Uttar Pradesh 221001",
+    "website": "https://districts.ecourts.gov.in/varanasi",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Varanasi district"
+  },
+  {
+    "name": "District and Sessions Court, Agra",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Agra district.",
+    "location": "Agra, Uttar Pradesh 282001",
+    "website": "https://districts.ecourts.gov.in/agra",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Agra district"
+  },
+  {
+    "name": "District and Sessions Court, Prayagraj",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Prayagraj district.",
+    "location": "Prayagraj, Uttar Pradesh 211001",
+    "website": "https://districts.ecourts.gov.in/allahabad",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Prayagraj district"
+  },
+  {
+    "name": "District and Sessions Court, Patna",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Patna district.",
+    "location": "Patna, Bihar 800001",
+    "website": "https://districts.ecourts.gov.in/patna",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Bihar",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Patna district"
+  },
+  {
+    "name": "District and Sessions Court, Gaya",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Gaya district.",
+    "location": "Gaya, Bihar 823001",
+    "website": "https://districts.ecourts.gov.in/gaya",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Bihar",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Gaya district"
+  },
+  {
+    "name": "District and Sessions Court, Muzaffarpur",
+    "type": "District Court",
+    "description": "District and Sessions Court handling civil and criminal matters in Muzaffarpur district.",
+    "location": "Muzaffarpur, Bihar 842001",
+    "website": "https://districts.ecourts.gov.in/muzaffarpur",
+    "documentTypes": [
+      "Judgments",
+      "Orders",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Bihar",
+    "caseTypes": [
+      "Civil suits",
+      "Criminal trials",
+      "Motor accident claims",
+      "Rent matters",
+      "Succession cases"
+    ],
+    "geographicalJurisdiction": "Muzaffarpur district"
+  },
+  {
+    "name": "National Company Law Tribunal, New Delhi",
+    "type": "Tribunal",
+    "description": "Adjudicates issues relating to companies in India, including insolvency resolution.",
+    "location": "Block No. 3, CGO Complex, Lodhi Road, New Delhi 110003",
+    "website": "https://nclt.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Corporate matters for Delhi region"
+  },
+  {
+    "name": "National Company Law Tribunal, Mumbai",
+    "type": "Tribunal",
+    "description": "Adjudicates issues relating to companies in India, including insolvency resolution.",
+    "location": "6th Floor, Fountain Telecom Building, Fountain, Mumbai 400001",
+    "website": "https://nclt.gov.in/mumbai-bench",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Fountain",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Corporate matters for Mumbai region"
+  },
+  {
+    "name": "National Company Law Appellate Tribunal, New Delhi",
+    "type": "Appellate Tribunal",
+    "description": "Hears appeals against the orders of the National Company Law Tribunal.",
+    "location": "Vigyan Bhawan Annexe, Maulana Azad Road, New Delhi 110011",
+    "website": "https://nclat.nic.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Corporate insolvency resolution",
+      "Company law disputes",
+      "Mergers and acquisitions",
+      "Corporate restructuring"
+    ],
+    "geographicalJurisdiction": "Appeals from NCLT across India"
+  },
+  {
+    "name": "Income Tax Appellate Tribunal, New Delhi",
+    "type": "Tribunal",
+    "description": "Adjudicates appeals against orders passed by income tax authorities.",
+    "location": "Loknayak Bhawan, Khan Market, New Delhi 110003",
+    "website": "https://itat.nic.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Income tax matters for Delhi region"
+  },
+  {
+    "name": "Income Tax Appellate Tribunal, Mumbai",
+    "type": "Tribunal",
+    "description": "Adjudicates appeals against orders passed by income tax authorities.",
+    "location": "M.K. Road, Mumbai 400020",
+    "website": "https://itat.nic.in/mumbai-benches/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "M.K. Road",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Income tax matters for Mumbai region"
+  },
+  {
+    "name": "Central Administrative Tribunal, Principal Bench",
+    "type": "Tribunal",
+    "description": "Adjudicates disputes related to recruitment and service conditions of public servants.",
+    "location": "Copernicus Marg, New Delhi 110001",
+    "website": "https://cgatnew.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Service matters of central government employees"
+  },
+  {
+    "name": "Armed Forces Tribunal, Principal Bench",
+    "type": "Tribunal",
+    "description": "Adjudicates disputes and complaints related to commission, appointments, enrolments and service conditions of the armed forces.",
+    "location": "West Block-VIII, Sector 1, R.K. Puram, New Delhi 110066",
+    "website": "https://aft.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Service matters of armed forces",
+      "Court martial appeals",
+      "Pension disputes"
+    ],
+    "geographicalJurisdiction": "Service matters of armed forces personnel"
+  },
+  {
+    "name": "National Green Tribunal, Principal Bench",
+    "type": "Tribunal",
+    "description": "Handles cases relating to environmental protection, conservation of forests and other natural resources.",
+    "location": "Faridkot House, Copernicus Marg, New Delhi 110001",
+    "website": "https://greentribunal.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Environmental matters across India"
+  },
+  {
+    "name": "National Consumer Disputes Redressal Commission",
+    "type": "Commission",
+    "description": "Adjudicates complaints relating to consumer disputes and grievances.",
+    "location": "Upbhokta Nyay Bhawan, F Block, GPO Complex, INA, New Delhi 110023",
+    "website": "https://ncdrc.nic.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Consumer disputes across India (above Rs. 1 crore)"
+  },
+  {
+    "name": "Competition Commission of India",
+    "type": "Commission",
+    "description": "Prevents activities that have an adverse effect on competition in India.",
+    "location": "9th Floor, Office Block, Tower 1, Jeevan Bharati Building, Connaught Place, New Delhi 110001",
+    "website": "https://www.cci.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Notifications",
+      "Regulations"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Anti-competitive practices across India"
+  },
+  {
+    "name": "Securities Appellate Tribunal",
+    "type": "Appellate Tribunal",
+    "description": "Hears appeals against orders passed by SEBI, IRDAI, and PFRDA.",
+    "location": "Earnest House, 14th Floor, Nariman Point, Mumbai 400021",
+    "website": "https://sat.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Nariman Point",
+    "caseTypes": [
+      "Securities market appeals",
+      "Insurance regulatory appeals",
+      "Pension fund appeals"
+    ],
+    "geographicalJurisdiction": "Appeals from securities market regulators"
+  },
+  {
+    "name": "Telecom Disputes Settlement and Appellate Tribunal",
+    "type": "Appellate Tribunal",
+    "description": "Adjudicates disputes in the telecom sector and hears appeals against orders of TRAI.",
+    "location": "Bhikaji Cama Place, New Delhi 110066",
+    "website": "https://tdsat.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Telecom disputes across India"
+  },
+  {
+    "name": "Customs, Excise and Service Tax Appellate Tribunal, Principal Bench",
+    "type": "Tribunal",
+    "description": "Hears appeals against orders passed by the Commissioners of Customs and Excise.",
+    "location": "West Block No. 2, R.K. Puram, New Delhi 110066",
+    "website": "https://cestat.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Service matters",
+      "Recruitment disputes",
+      "Promotion disputes",
+      "Disciplinary proceedings"
+    ],
+    "geographicalJurisdiction": "Customs, excise and service tax matters"
+  },
+  {
+    "name": "Debt Recovery Tribunal-I, Delhi",
+    "type": "Tribunal",
+    "description": "Adjudicates matters related to recovery of debts due to banks and financial institutions.",
+    "location": "4th Floor, Jeevan Tara Building, Parliament Street, New Delhi 110001",
+    "website": "https://drt.gov.in/drtlive/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Debt recovery matters in Delhi region"
+  },
+  {
+    "name": "Debt Recovery Tribunal-I, Mumbai",
+    "type": "Tribunal",
+    "description": "Adjudicates matters related to recovery of debts due to banks and financial institutions.",
+    "location": "MTNL Building, 3rd Floor, Strand Road, Colaba, Mumbai 400005",
+    "website": "https://drt.gov.in/drtlive/Mumbai",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Colaba",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Debt recovery matters in Mumbai region"
+  },
+  {
+    "name": "Railway Claims Tribunal, Principal Bench",
+    "type": "Tribunal",
+    "description": "Adjudicates claims for compensation for loss, damage, or deterioration of goods entrusted to railways and for matters related to railway accidents.",
+    "location": "13/15, Mall Road, Delhi 110054",
+    "website": "https://rct.indianrail.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Railway claims across India"
+  },
+  {
+    "name": "Appellate Tribunal for Electricity",
+    "type": "Appellate Tribunal",
+    "description": "Hears appeals against orders of the electricity regulatory commissions.",
+    "location": "Core-4, 7th Floor, SCOPE Complex, Lodhi Road, New Delhi 110003",
+    "website": "https://aptel.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Cause Lists",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Electricity regulatory matters across India"
+  },
+  {
+    "name": "Lokpal of India",
+    "type": "Anti-Corruption Authority",
+    "description": "Inquires into allegations of corruption against public functionaries.",
+    "location": "A-Block, GPO Complex, INA, New Delhi 110023",
+    "website": "https://lokpal.gov.in/",
+    "documentTypes": [
+      "Orders",
+      "Reports",
+      "Notifications"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Corruption allegations",
+      "Public servant misconduct",
+      "Abuse of office",
+      "Financial irregularities"
+    ],
+    "geographicalJurisdiction": "Corruption cases involving public servants across India"
+  },
+  {
+    "name": "Family Court, Delhi",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/delhi/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Delhi"
+  },
+  {
+    "name": "Family Court, Mumbai",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "Bandra East, Mumbai, Maharashtra 400051",
+    "website": "https://districts.ecourts.gov.in/mumbai/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Mumbai"
+  },
+  {
+    "name": "Family Court, Kolkata",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "Alipore, Kolkata, West Bengal 700027",
+    "website": "https://districts.ecourts.gov.in/kolkata/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "West Bengal",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Kolkata"
+  },
+  {
+    "name": "Family Court, Chennai",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "George Town, Chennai, Tamil Nadu 600001",
+    "website": "https://districts.ecourts.gov.in/chennai/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Tamil Nadu",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Chennai"
+  },
+  {
+    "name": "Family Court, Bengaluru",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "City Civil Court, Bengaluru, Karnataka 560001",
+    "website": "https://districts.ecourts.gov.in/bengaluru/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Karnataka",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Bengaluru"
+  },
+  {
+    "name": "Family Court, Hyderabad",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "City Civil Court, Hyderabad, Telangana 500001",
+    "website": "https://districts.ecourts.gov.in/hyderabad/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Telangana",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Hyderabad"
+  },
+  {
+    "name": "Family Court, Ahmedabad",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "Bhadra, Ahmedabad, Gujarat 380001",
+    "website": "https://districts.ecourts.gov.in/ahmedabad/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Gujarat",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Ahmedabad"
+  },
+  {
+    "name": "Family Court, Lucknow",
+    "type": "Family Court",
+    "description": "Specialized court that deals with family matters including marriage, divorce, child custody, and maintenance.",
+    "location": "Qaiserbagh, Lucknow, Uttar Pradesh 226001",
+    "website": "https://districts.ecourts.gov.in/lucknow/family-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Uttar Pradesh",
+    "caseTypes": [
+      "Divorce",
+      "Child custody",
+      "Maintenance",
+      "Guardianship",
+      "Adoption"
+    ],
+    "geographicalJurisdiction": "Family matters in Lucknow"
+  },
+  {
+    "name": "Juvenile Justice Board, Delhi",
+    "type": "Juvenile Court",
+    "description": "Adjudicates matters concerning children in conflict with law.",
+    "location": "Kingsway Camp, Delhi 110009",
+    "website": "https://dwcd.delhi.gov.in/juvenile-justice-board",
+    "documentTypes": [
+      "Orders",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Juvenile delinquency",
+      "Child protection",
+      "Rehabilitation",
+      "Counseling"
+    ],
+    "geographicalJurisdiction": "Juvenile matters in Delhi"
+  },
+  {
+    "name": "Juvenile Justice Board, Mumbai",
+    "type": "Juvenile Court",
+    "description": "Adjudicates matters concerning children in conflict with law.",
+    "location": "Dongri, Mumbai, Maharashtra 400009",
+    "website": "https://womenchild.maharashtra.gov.in/juvenile-justice-board",
+    "documentTypes": [
+      "Orders",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Juvenile delinquency",
+      "Child protection",
+      "Rehabilitation",
+      "Counseling"
+    ],
+    "geographicalJurisdiction": "Juvenile matters in Mumbai"
+  },
+  {
+    "name": "Motor Accident Claims Tribunal, Delhi",
+    "type": "Tribunal",
+    "description": "Adjudicates claims for compensation in respect of accidents involving motor vehicles.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/delhi/mact",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Anti-competitive agreements",
+      "Abuse of dominant position",
+      "Combinations and mergers",
+      "Market regulation"
+    ],
+    "geographicalJurisdiction": "Motor accident claims in Delhi"
+  },
+  {
+    "name": "Motor Accident Claims Tribunal, Mumbai",
+    "type": "Tribunal",
+    "description": "Adjudicates claims for compensation in respect of accidents involving motor vehicles.",
+    "location": "Fort, Mumbai, Maharashtra 400001",
+    "website": "https://districts.ecourts.gov.in/mumbai/mact",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Anti-competitive agreements",
+      "Abuse of dominant position",
+      "Combinations and mergers",
+      "Market regulation"
+    ],
+    "geographicalJurisdiction": "Motor accident claims in Mumbai"
+  },
+  {
+    "name": "Labour Court, Delhi",
+    "type": "Labour Court",
+    "description": "Adjudicates disputes relating to industrial and labour matters.",
+    "location": "Rouse Avenue, New Delhi 110002",
+    "website": "https://labour.delhi.gov.in/labour-courts",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Unfair labor practices",
+      "Wage disputes",
+      "Working condition disputes",
+      "Termination disputes"
+    ],
+    "geographicalJurisdiction": "Labour disputes in Delhi"
+  },
+  {
+    "name": "Labour Court, Mumbai",
+    "type": "Labour Court",
+    "description": "Adjudicates disputes relating to industrial and labour matters.",
+    "location": "Bandra Kurla Complex, Mumbai, Maharashtra 400051",
+    "website": "https://labour.maharashtra.gov.in/labour-courts",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Unfair labor practices",
+      "Wage disputes",
+      "Working condition disputes",
+      "Termination disputes"
+    ],
+    "geographicalJurisdiction": "Labour disputes in Mumbai"
+  },
+  {
+    "name": "Industrial Tribunal, Delhi",
+    "type": "Tribunal",
+    "description": "Adjudicates industrial disputes under the Industrial Disputes Act.",
+    "location": "Karkardooma Courts, Delhi 110032",
+    "website": "https://labour.delhi.gov.in/industrial-tribunal",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Industrial disputes in Delhi"
+  },
+  {
+    "name": "Industrial Tribunal, Mumbai",
+    "type": "Tribunal",
+    "description": "Adjudicates industrial disputes under the Industrial Disputes Act.",
+    "location": "Bandra Kurla Complex, Mumbai, Maharashtra 400051",
+    "website": "https://labour.maharashtra.gov.in/industrial-tribunal",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Specialized disputes",
+      "Regulatory matters",
+      "Sectoral appeals"
+    ],
+    "geographicalJurisdiction": "Industrial disputes in Mumbai"
+  },
+  {
+    "name": "Special Court for Prevention of Corruption Act, Delhi",
+    "type": "Special Court",
+    "description": "Adjudicates cases under the Prevention of Corruption Act.",
+    "location": "Rouse Avenue, New Delhi 110002",
+    "website": "https://districts.ecourts.gov.in/delhi/special-court-pc-act",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized criminal matters",
+      "Statutory offences"
+    ],
+    "geographicalJurisdiction": "Corruption cases in Delhi"
+  },
+  {
+    "name": "Special Court for Prevention of Corruption Act, Mumbai",
+    "type": "Special Court",
+    "description": "Adjudicates cases under the Prevention of Corruption Act.",
+    "location": "Fort, Mumbai, Maharashtra 400001",
+    "website": "https://districts.ecourts.gov.in/mumbai/special-court-pc-act",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Specialized criminal matters",
+      "Statutory offences"
+    ],
+    "geographicalJurisdiction": "Corruption cases in Mumbai"
+  },
+  {
+    "name": "Special Court for Economic Offences, Delhi",
+    "type": "Special Court",
+    "description": "Adjudicates cases related to economic offences.",
+    "location": "Rouse Avenue, New Delhi 110002",
+    "website": "https://districts.ecourts.gov.in/delhi/special-court-economic-offences",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Specialized criminal matters",
+      "Statutory offences"
+    ],
+    "geographicalJurisdiction": "Economic offences in Delhi"
+  },
+  {
+    "name": "Special Court for Economic Offences, Mumbai",
+    "type": "Special Court",
+    "description": "Adjudicates cases related to economic offences.",
+    "location": "Fort, Mumbai, Maharashtra 400001",
+    "website": "https://districts.ecourts.gov.in/mumbai/special-court-economic-offences",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Specialized criminal matters",
+      "Statutory offences"
+    ],
+    "geographicalJurisdiction": "Economic offences in Mumbai"
+  },
+  {
+    "name": "Fast Track Court, Delhi",
+    "type": "Fast Track Court",
+    "description": "Expedites trial of specific categories of cases, especially those related to sexual offences.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/delhi/fast-track-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Sexual offences",
+      "Crimes against women",
+      "Heinous crimes",
+      "Senior citizen cases"
+    ],
+    "geographicalJurisdiction": "Specific categories of cases in Delhi"
+  },
+  {
+    "name": "Fast Track Court, Mumbai",
+    "type": "Fast Track Court",
+    "description": "Expedites trial of specific categories of cases, especially those related to sexual offences.",
+    "location": "Fort, Mumbai, Maharashtra 400001",
+    "website": "https://districts.ecourts.gov.in/mumbai/fast-track-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Sexual offences",
+      "Crimes against women",
+      "Heinous crimes",
+      "Senior citizen cases"
+    ],
+    "geographicalJurisdiction": "Specific categories of cases in Mumbai"
+  },
+  {
+    "name": "Commercial Court, Delhi",
+    "type": "Commercial Court",
+    "description": "Adjudicates commercial disputes of specified value.",
+    "location": "Tis Hazari Courts, Delhi 110054",
+    "website": "https://districts.ecourts.gov.in/delhi/commercial-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Delhi",
+    "caseTypes": [
+      "Commercial contracts",
+      "Intellectual property",
+      "Banking transactions",
+      "Construction disputes"
+    ],
+    "geographicalJurisdiction": "Commercial disputes in Delhi"
+  },
+  {
+    "name": "Commercial Court, Mumbai",
+    "type": "Commercial Court",
+    "description": "Adjudicates commercial disputes of specified value.",
+    "location": "Fort, Mumbai, Maharashtra 400001",
+    "website": "https://districts.ecourts.gov.in/mumbai/commercial-court",
+    "documentTypes": [
+      "Orders",
+      "Judgments",
+      "Case Status"
+    ],
+    "state": "Maharashtra",
+    "caseTypes": [
+      "Commercial contracts",
+      "Intellectual property",
+      "Banking transactions",
+      "Construction disputes"
+    ],
+    "geographicalJurisdiction": "Commercial disputes in Mumbai"
+  }
+]
